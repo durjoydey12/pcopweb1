@@ -7,7 +7,7 @@
         <div class="row">
            <div class="col-12">
                 <div class="facilities_heading ">
-                <h1 class="m-0 text-danger">outsourcisng</h1>
+                <h1 class="m-0 text-danger">Outsourcisng</h1>
                 </div>
            </div>
         </div>
@@ -37,7 +37,8 @@
                             
                         </div>
                                 <div class="job_placement_contant_img">
-                                    <img class="img-fluid w-100" src="images/image17.jpg" alt="img">
+                                    <img class="img-fluid w-100" src="images/Image17.png" alt="img">
+                                    
                                 </div>
                     </div>
                     <div class="col-md-6">
@@ -343,13 +344,13 @@
 
 
 
-<section id="office_and_traning">
+<section id="Office_and_traning">
    <div class="container">
-      <h2>Officeand traning</h2>
+      <h2>Office and traning</h2>
         <div class="row office_and_traning_slider_for slick-initialized slick-slider">
                  
             <div class="office_slide_item">
-               <img class="img-fluid w-100" src="images/image7.jpeg" alt="img">
+               <img class="img-fluid w-100" src="images/image.jpg" alt="img">
             </div>
          
         </div>
@@ -370,7 +371,7 @@
                     <div class="modal_item_wrap">
                         <div class="modal_item_in">
                            
-                                <img class="img-fluid video_thumb w-100" src="images/image45.jpg" alt="img">
+                                <img class="img-fluid video_thumb w-100" src="images/image.jpg" alt="img">
                               
                         </div>
                     </div>
@@ -382,7 +383,7 @@
                     <div class="modal_item_wrap">
                         <div class="modal_item_in">
                             
-                                <img class="img-fluid video_thumb w-100" src="images/image27.jpg" alt="img">
+                                <img class="img-fluid video_thumb w-100" src="images/market.jpg" alt="img">
                                 
                            
                         </div>
@@ -395,7 +396,7 @@
                     <div class="modal_item_wrap">
                         <div class="modal_item_in">
                             
-                                <img class="img-fluid video_thumb w-100" src="images/image28.jpg" alt="img">
+                                <img class="img-fluid video_thumb w-100" src="images/images (1).jpg" alt="img">
                                 
                             
                         </div>
@@ -408,7 +409,7 @@
                     <div class="modal_item_wrap">
                         <div class="modal_item_in">
                            
-                                <img class="img-fluid video_thumb w-100" src="images/image29.jpg" alt="img">
+                                <img class="img-fluid video_thumb w-100" src="images/images.jpg" alt="img">
                              
                            
                         </div>
