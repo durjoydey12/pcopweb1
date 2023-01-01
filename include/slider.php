@@ -1,18 +1,24 @@
+<?php include 'include/connection.php';
+$sql = "SELECT * FROM sliders ";
+$result = $db->query($sql);
+?>
 <slider>
 
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
                 <div class="carousel-inner">
+                <?php while($row = $result->fetch_assoc()): ?>
                         <div class="carousel-item active"data-bs-interval="10000">
-                            <img src="images/image5.jpeg" class="d-block w-100" alt="image">
+                            <img src="<?php echo"admin/images/" .$row['image'] ; ?>" alt="image">
                                         <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                                                 <div class="p-5" style="max-width: 900px;">
                                                     <h1 class="m-0 text-primary"><span class="text-dark">Pritilata </span>Cultural Organization</h1>
                                                 </div>
                                         </div>       
                         </div>
+                        <?php endwhile; ?>
 
                             <div class="carousel-item"data-bs-interval="20000">
-                                <img src="images/image4.jpeg" class="d-block w-100" alt="image">
+                                <img src="<?php echo"admin/images/" .$row['image'] ; ?>" class="d-block w-100" alt="image">
                                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                                                     <div class="p-5" style="max-width: 900px;">
                                                         <h1 class="m-0 text-primary">Pritilata Cultural Organization</h1>
@@ -33,3 +39,4 @@
                         </a>
         </div>
 </slider>
+

@@ -1,5 +1,9 @@
 <!-- header -->
-<?php include 'include/header.php' ; ?>;
+<?php include 'include/header.php' ;
+include 'include/connection.php';
+$sql = "SELECT * FROM outsourcisngs ";
+$result = $db->query($sql);
+?>
 
 
 
@@ -20,22 +24,18 @@
                 <div class="col-md-12 job_placement" style="background-color: rgb(255, 247, 235);">
                     <div class="row">
                     <div class="col-md-6">
+                    <?php while($row = $result->fetch_assoc()): ?>
                         <div class="job_placement_contant freelancing">
                         
                             
-                                <h3><b>Outsourcisng</b></h3>
+                                <h3><b><?php echo $row['title'] ; ?></b></h3>
                             
                             
                         
-                                <p><h6>According to the Outsourcing definition, it is a technique of appointing another <br> 
-                                firm or company for a specific task. To simplify, we can say that it is the business <br> 
-                                practice to set specific third-party to give services previously done by the <br> 
-                                company’s staff. The foremost cause of doing so is to cut down the costs and<br> 
-                                increase the company’s profitability. It also involves the distribution of labour so <br> 
-                                that the company outsourcing can focus on more important subjects. It is a matter <br> 
-                                of controversy in many countries. Some believe that it causes a decline in domestic jobs, whereas some believe that it allows the business to assign assets to the companies where they can be most effectively used.</h6></p>
+                                <p><h6><?php echo $row['text'] ; ?></h6></p>
                             
                         </div>
+                        <?php endwhile; ?>
                                 <div class="job_placement_contant_img">
                                     <img class="img-fluid w-100" src="images/image17.jpg" alt="img">
                                 </div>

@@ -33,8 +33,9 @@ $result = $db->query($sql);
                 <table class="table table-striped table-bordered table-hover">
                 <thead>
                         <th><b>Id</b></th>
-                        <th><b>Outsourcisng text</b></th>
+                       
                         <th><b>Title</b></th>
+                        <th><b>Outsourcisng text</b></th>
                         <th><b>Image</b></th>
                         <th><b>Action</b></th>
                     </thead>
@@ -43,8 +44,9 @@ $result = $db->query($sql);
                       <tr>
                        
                             <td><?php echo $row['id'] ; ?></td>
-                            <td><?php echo $row['text'] ; ?></td>
                             <td><?php echo $row['title'] ; ?></td>
+                            <td><?php echo $row['text'] ; ?></td>
+                            
                             <td><?php echo $row['image'] ; ?></td>
                         
                         <td>
