@@ -7,7 +7,7 @@
         <div class="row">
            <div class="col-12">
                 <div class="facilities_heading ">
-                <h1 class="m-0 text-danger">Outsourcisng</h1>
+                <h1 class="m-0 text-danger">outsourcisng</h1>
                 </div>
            </div>
         </div>
