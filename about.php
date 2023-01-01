@@ -6,18 +6,18 @@ $result = $db->query($sql);
 ?>
 <!-- slider -->
         <div class="card text-bg-dark">
-                <img src="images/image4.jpeg" class="card-img" alt="img" height="400px" >
+                <img src="images/image47.jpg" class="card-img" alt="img" height="550px" >
                         <div class="card-img-overlay">
                                 <div class="container">
                                         <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 400px">
-                                        <h1 class="m-0 text-info"><b>ABOUT US </b></h1>
+                                        <!-- <h1 class="m-0 text-info"><b>ABOUT US </b></h1> -->
                                                 
                                </div>
 
                         
                         </div>
         </div>
-        <br><br>
+        <br><br><br>
    
  
         <?php while($row = $result->fetch_assoc()): ?>

@@ -7,7 +7,7 @@
         <div class="row">
            <div class="col-12">
                 <div class="facilities_heading ">
-                <h1 class="m-0 text-danger">outsourcisng</h1>
+                <h1 class="m-0 text-danger">Outsourcisng</h1>
                 </div>
            </div>
         </div>
@@ -350,7 +350,7 @@
         <div class="row office_and_traning_slider_for slick-initialized slick-slider">
                  
             <div class="office_slide_item">
-               <img class="img-fluid w-100" src="images/image.jpg" alt="img">
+               <img class="img-fluid w-100" src="images/image7.jpe2g" alt="img">
             </div>
          
         </div>

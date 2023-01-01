@@ -8,7 +8,15 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/about.css">
-    
+
+
+<!-- Stylesheet
+    ================================================== -->
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<link rel="stylesheet" type="text/css" href="assets/css/nivo-lightbox/nivo-lightbox.css">
+<link rel="stylesheet" type="text/css" href="assets/css/nivo-lightbox/default.css">
+
+
     
    
 </head>
