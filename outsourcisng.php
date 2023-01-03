@@ -350,7 +350,7 @@
         <div class="row office_and_traning_slider_for slick-initialized slick-slider">
                  
             <div class="office_slide_item">
-               <img class="img-fluid w-100" src="images/image7.jpeg" alt="img">
+               <img class="img-fluid w-100" src="images/OUT.jpg" alt="img" height="300px" >
             </div>
          
         </div>
