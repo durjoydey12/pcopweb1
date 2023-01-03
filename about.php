@@ -6,7 +6,7 @@ $result = $db->query($sql);
 ?>
 <!-- slider -->
         <div class="card text-bg-dark">
-                <img src="images/image47.jpg" class="card-img" alt="img" height="550px" >
+                <img src="images/SME.jpg" class="card-img" alt="img" height="450px" >
                         <div class="card-img-overlay">
                                 <div class="container">
                                         <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 400px">
