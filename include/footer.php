@@ -4,16 +4,17 @@ $sql = "SELECT * FROM footers";
 $result = $db->query($sql);
   ?>
         <footer>
+        <?php while($row = $result->fetch_assoc()): ?>
             <div class="container-fluid bg-dark text-white-50 py-5 px-sm-3 px-lg-5" style="margin-top: 10px;">
                         <div class="row pt-5">
-                        <?php while($row = $result->fetch_assoc()): ?>
+             
                                 <div class="col-lg-4 col-md-6 ">
                                         <a href="" class="navbar-brand">
                                             <h1 class="text-primary"><span class="text-white">Pritilata </span>Cultural <br>Organization</h1>
                                         </a>
                                         <p> <?php echo $row['text'] ; ?></p>
                                 </div>
-                         <?php endwhile; ?>
+                      
                             <div class="col-lg-4 col-md-6 ">
                                     <center>
                                             <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Our Services</h5>
@@ -28,20 +29,22 @@ $result = $db->query($sql);
                                         </div>
                                     </center>
                             </div>
+                         
                         
                                     <div class="col-lg-4 col-md-6 ">
                                                 <center>
                                                             <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Contact Us</h5>
-                                                            <p><i class="fa fa-map-marker-alt mr-2"></i>Dhalghaat,patiya,Chottogram . </p><br>
-                                                            <p><i class="fa fa-phone-alt mr-2"></i>018478945778</p><br>
-                                                            <p><i class="fa fa-envelope mr-2"></i>Pritilata@gmail.com</p><br>
+                                                            <p><i class="fa fa-map-marker-alt mr-2"></i><?php echo $row['address'] ; ?> </p><br>
+                                                            <p><i class="fa fa-phone-alt mr-2"></i><?php echo $row['mobile_no'] ; ?></p><br>
+                                                            <p><i class="fa fa-envelope mr-2"></i><?php echo $row['email'] ; ?></p><br>
                                                         
                                                 </center>
                                     </div>
-                                
                         
                         </div>
             </div>
+            <?php endwhile; ?> 
+
         </footer>
 
      
