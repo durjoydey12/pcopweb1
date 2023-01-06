@@ -12,7 +12,7 @@
                                 <div class="about-text">
                                     <h2 class="text-info"> <span class="text-dark">Welcome to </span> Pritilata Cultural <br>Organization</h2>
                                     <hr>
-                                    <b> </b>
+                                    <b>......................................</b>
                                 
                                 </div>
                         </div>
@@ -30,11 +30,11 @@
         
 <div id="services">
         <div class="container">
-            <div class="col-md-10 col-md-offset-1 section-title text-center">
+            <div class="section-title text-center center">
                     <h2>Our Services</h2>
                     <hr><br>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.</p>
-            </div>br>
+                    <p>.............................................</p>
+            </div><br>
 
             <div class="row">
                 <div class="col-xs-10 col-md-6">
@@ -43,7 +43,7 @@
                             </div>
                                     <div class="service-desc">
                                         <h3>Outsourcisng</h3>
-                                        <p><b>According to the Outsourcing definition, it is a technique of appointing another firm or company for a specific task. To simplify, we can say that it is the business practice to set specific third-party to give services previously done by the   company’s staff. The foremost cause of doing so is to cut down the costs and increase the company’s profitability. </b></p>
+                                        <p><b>........................................................................ </b></p>
                                     </div>
                 </div>
             
@@ -52,23 +52,23 @@
                                     <div class="service-media"> <img src="images/19.jpg" alt=" img" height="300px" width="500px" > </div>
                                         <div class="service-desc">
                                             <h3>Institute</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.</p>
+                                            <p>.......................................................................</p>
                                     </div>
                                </div>
              </div>
            
         </div>
 </div>
-
+<br><br>
 
 
 <!-- Gallery Section -->
 <div id="portfolio">
   <div class="container">
     <div class="section-title text-center center">
-      <h2>Project Gallery</h2>
+      <h2>Our Gallery</h2>
       <hr>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.</p>
+      <p>..........................................................................</p>
     </div>
     <div class="row">
                 <div class="col-xs-12 col-md-4">
@@ -90,7 +90,7 @@
                                         
                                </div>                         
              </div>
-          <br><br>
+          <br>
 
 
              <div class="row">
@@ -114,7 +114,7 @@
                                </div>                         
              </div>
 
-             <br><br>
+             <br>
 
 
                     <div class="row">
@@ -144,7 +144,7 @@
   </div>
 </div>
        
-
+<br>
 
 
 <!-- footer -->
