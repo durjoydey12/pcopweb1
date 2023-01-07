@@ -25,14 +25,14 @@
                   <div class="mb-3">
                     <label for="" class="form-label"><b>Email</b></label>
                     <input type="text"
-                      class="form-control" name="email" id="" aria-describedby="helpId" placeholder="Enter your email address">
+                      class="form-control" name="email" id="" aria-describedby="helpId" placeholder="Enter your email address"required>
                   </div><br>
                   <div class="mb-3">
                     <label for="" class="form-label"><b>Password</b></label>
                     <input type="text"
-                      class="form-control" name="password" id="" aria-describedby="helpId" placeholder="Enter the password">
+                      class="form-control" name="password" id="" aria-describedby="helpId" placeholder="Enter the password"required>
                   </div><br>
-                  <button type="submit" class="btn btn-primary"><b>Submit</b></button>
+                  <button type="submit" class="btn btn-success"><b>Submit</b></button>
           
                   </form>
               </div>
