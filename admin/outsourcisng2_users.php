@@ -1,8 +1,8 @@
 <?php include 'include/header.php' ;
 include 'include/connection.php';  
-$sql = "SELECT * FROM homes";
+$sql = "SELECT * FROM outsourcisng2 ";
 $result = $db->query($sql);
-  ?>
+?>
 
 <!-- Page wrapper  -->
 <!-- ============================================================== -->
@@ -35,7 +35,7 @@ $result = $db->query($sql);
                         <th><b>Id</b></th>
                        
                         <th><b>Title</b></th>
-                        <th><b>Home text</b></th>
+                     
                         <th><b>Image</b></th>
                         <th><b>Action</b></th>
                     </thead>
@@ -45,14 +45,14 @@ $result = $db->query($sql);
                        
                             <td><?php echo $row['id'] ; ?></td>
                             <td><?php echo $row['title'] ; ?></td>
-                            <td><?php echo $row['text'] ; ?></td>
+                            
                             
                             <td><?php echo $row['image'] ; ?></td>
                         
                         <td>
-                            <a href="edit_home.php?id=<?php echo $row['id']; ?>" class="btn btn-primary">Edit</a>
+                            <a href="edit_outsourcisng2.php?id=<?php echo $row['id']; ?>" class="btn btn-primary">Edit</a>
                        
-                            <a href="delete_home.php?id=<?php echo $row['id']; ?>" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this user?')">Delete</a>
+                            <a href="delete_outsourcisng2.php?id=<?php echo $row['id']; ?>" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this user?')">Delete</a>
                         </td>
                      </tr>
                         <?php endwhile; ?>

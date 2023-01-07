@@ -37,7 +37,7 @@ $result = $db->query($sql);
                     </div>
                     <div class="col-md-9">
                         <div class="jobplacement_partner  text-center">
-                            <br><br>
+                        <br><br>
                            
                             <p><h6><?php echo $row['history'] ; ?></h6></p>
                         

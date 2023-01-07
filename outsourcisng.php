@@ -1,5 +1,11 @@
 <!-- header -->
-<?php include 'include/header.php' ; ?>
+<?php include 'include/header.php' ;
+include 'include/connection.php';  
+$sql = "SELECT * FROM outsourcisngs";
+// $sql = "SELECT * FROM outsourcisng2 ";
+$result = $db->query($sql);
+  ?>
+
 
 
 
@@ -14,113 +20,61 @@
     </div><br><br><br>
 
 
+
 <section class="facilities-placement">
+
         <div class="container">
             <div class="row">
                 <div class="col-md-12 job_placement" style="background-color: rgb(255, 247, 235);">
                     <div class="row">
+                    <?php while($row = $result->fetch_assoc()): ?>
                     <div class="col-md-6">
+                
                         <div class="job_placement_contant freelancing">
                         
                             
-                                <h3><b>Outsourcisng</b></h3>
+                                <h3><b><?php echo $row['title'] ; ?></b></h3>
                             
                             
                         
-                                <p><h6>According to the Outsourcing definition, it is a technique of appointing another <br> 
-                                firm or company for a specific task. To simplify, we can say that it is the business <br> 
-                                practice to set specific third-party to give services previously done by the <br> 
-                                company’s staff. The foremost cause of doing so is to cut down the costs and<br> 
-                                increase the company’s profitability. It also involves the distribution of labour so <br> 
-                                that the company outsourcing can focus on more important subjects. It is a matter <br> 
-                                of controversy in many countries. Some believe that it causes a decline in domestic jobs, whereas some believe that it allows the business to assign assets to the companies where they can be most effectively used.</h6></p>
+                                <p><h6><?php echo $row['text'] ; ?></h6></p>
                             
                         </div>
+                        
                                 <div class="job_placement_contant_img">
-                                    <img class="img-fluid w-100" src="images/Image17.png" alt="img">
+                                    <img class="img-fluid w-100" src="<?php echo"admin/images/" .$row['image'] ; ?>" alt="img">
                                     
                                 </div>
                     </div>
+                    <?php endwhile; ?>  
+
+                    <?php while($row = $result->fetch_assoc()): ?>
                     <div class="col-md-6">
                         <div class="jobplacement_partner  text-center">
-                            <h3 class="pt-3"><b>Outsourcisng marketplace</b></h3>
-                            <p><h6>Freelance platforms are a marketplace for businesses and freelance workers <br> 
-                            from all over the world. They typically make money by taking a cut from both <br> 
-                            the employer and the freelancer. For the money they charge, these platforms  <br> 
-                            provide a hassle-free and convenient business experience to both parties.</h6></p>
+                            <h3 class="pt-3"><b><?php echo $row['title'] ; ?></b></h3>
+                            <p><h6><?php echo $row['text'] ; ?></h6></p>
                         
-                                                        <img class="img-fluid" src="images/image18.png" alt="img"><br><br>
-                                                        <img class="img-fluid" src="images/image19.png" alt="img"><br><br>
-                                                        <img class="img-fluid" src="images/image20.png" alt="img"><br><br>
-                                                        <img class="img-fluid" src="images/image21.png" alt="img"><br><br>
-                                                        <img class="img-fluid" src="images/image22.png" alt="img"><br><br>
-                                                        <img class="img-fluid" src="images/image23.png" alt="img"><br><br>
-                                                        <img class="img-fluid" src="images/image24.png" alt="img"><br><br>
-                                                        <img class="img-fluid" src="images/image25.png" alt="img"><br><br>
-                                                        <img class="img-fluid" src="images/image26.png" alt="img"><br><br>
-                                                        
-                                                    
-                            
-                                                        <h5 class="m-0 text-success"><b>+9</b> <span>Institute</span><h5>
-                                
-                            
+                                                        <img class="img-fluid" src="<?php echo"admin/images/" .$row['image'] ; ?>" alt="img"><br><br>
+                                                                                                                                                                            
+                                                     
+              
                         </div>
                     </div>
+                    <?php endwhile; ?> 
                     </div>
                 </div>
             </div>
         </div>
+    
 </section><br><br><br><br>
 
-<section id="couter_up">
-   <div class="container">
-      <div class="row">
-                  <div class="col-lg-2 col-md-4 col-6">
-            <div class="counter_up_item">
-               <h4 class="m-0 text-danger"><span class="counter"><b>50000</span>+</b></h4><br>
-               <p><b>Succesful Student</b></p>
-            </div>
-         </div>
-                  <div class="col-lg-2 col-md-4 col-6">
-            <div class="counter_up_item">
-            <h4 class="m-0 text-danger"><span class="counter"><b>23000</span>+</b></h4><br>
-               <p><b>Succesful Freelances</b> </p>
-            </div>
-         </div>
-                  <div class="col-lg-2 col-md-4 col-6">
-            <div class="counter_up_item">
-            <h4 class="m-0 text-danger"><span class="counter"><b>15000</span>+</b></h4><br>
-               <p><b>Succesful Worker</b></p>
-            </div>
-         </div>
-                  <div class="col-lg-2 col-md-4 col-6">
-            <div class="counter_up_item">
-            <h4 class="m-0 text-danger"><span class="counter"><b>300</span>+</b></h4><br>
-               <p><b>Industry expert</b></p>
-            </div>
-         </div>
-                  <div class="col-lg-2 col-md-4 col-6">
-            <div class="counter_up_item">
-            <h4 class="m-0 text-danger"><span class="counter"><b>87</span>%</b></h4><br>
-               <p><b>Succesful Reat</b></p>
-            </div>
-         </div>
-                  <div class="col-lg-2 col-md-4 col-6">
-            <div class="counter_up_item">
-            <h4 class="m-0 text-danger"><span class="counter"><b>700</span>+</b></h4><br>
-               <p><b>Signings Company</b></p>
-            </div>
-         </div>
-               </div>
-   </div>
-</section><br><br><br>
 
 
 <section id="pg_course_overviwe pb-0">
    <div class="container">
       <div class="row">
          <div class="pgc_for_whom">
-            <h3>Freelancing in for</h3><br><br><br>
+            <h3>Outsourcisng in for</h3><br><br><br>
    
           <center>
             <div class="row">
@@ -183,7 +137,7 @@
 </section><br><br><br><br><br>
 <section id="counter_up" class="about_counter_up" style="margin-bottom: 3rem;">
    <div class="container">
-      <h2>Freelancing our awesome afew enterprise</h2><br><br><br><br>
+      <h2>Outsourcisng our awesome afew enterprise</h2><br><br><br><br>
       <div class="row">
                   <div class="col-lg-3 col-md-4 col-sm-6 col-6">
             <div class="counter_up_item">
@@ -211,8 +165,8 @@
          </div>
                   <div class="col-lg-3 col-md-4 col-sm-6 col-6">
             <div class="counter_up_item">
-               <<h4 class="m-0 text-danger"><span class="counter"><b>8000</span>+</b></h4><br>
-               <p>Financially deprived got id scholarship</p>
+               <h4 class="m-0 text-danger"><span class="counter"><b>8000</span>+</b></h4><br>
+               <p>Outsourcisng deprived got id scholarship</p>
             </div>
          </div>
                   <div class="col-lg-3 col-md-4 col-sm-6 col-6">
@@ -345,6 +299,7 @@
 
 
 <section id="Office_and_traning">
+   
    <div class="container">
       <h2>Office and traning</h2>
         <div class="row office_and_traning_slider_for slick-initialized slick-slider">
@@ -356,74 +311,12 @@
         </div>
     </div>                                   
 </section>        
-<br><br>
+<br>
 
 
 
-<section id="student_success" class="section">
-   <div class="container">
-      <h2 class="pb-5 font-600"><b>creative it its topper freelancees</b></h2><br>
-      <div wire:id="AYnbEan1jNFr6Xvzf6wX">
-         <div class="col-12" id="graphics">
-          <div class="row success_body g-4">
-                        <div class="col-md-6">
-                <div class="success_item" style="margin-bottom: 0px;">
-                    <div class="modal_item_wrap">
-                        <div class="modal_item_in">
-                           
-                                <img class="img-fluid video_thumb w-100" src="images/image.jpg" alt="img">
-                              
-                        </div>
-                    </div>
-                </div>
-            </div>
-           
-             <div class="col-md-6">
-                <div class="success_item" style="margin-bottom: 0px;">
-                    <div class="modal_item_wrap">
-                        <div class="modal_item_in">
-                            
-                                <img class="img-fluid video_thumb w-100" src="images/market.jpg" alt="img">
-                                
-                           
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-                        <div class="col-md-6">
-                <div class="success_item" style="margin-bottom: 0px;">
-                    <div class="modal_item_wrap">
-                        <div class="modal_item_in">
-                            
-                                <img class="img-fluid video_thumb w-100" src="images/images (1).jpg" alt="img">
-                                
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-           
-                        <div class="col-md-6">
-                <div class="success_item" style="margin-bottom: 0px;">
-                    <div class="modal_item_wrap">
-                        <div class="modal_item_in">
-                           
-                                <img class="img-fluid video_thumb w-100" src="images/images.jpg" alt="img">
-                             
-                           
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-       </div>
-   
-    </div>
- </div>
-</section>
-<br><br>                                   
+
+                                  
 <!-- footer -->
  <?php include 'include/footer.php' ; ?>
  
