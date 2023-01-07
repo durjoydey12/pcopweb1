@@ -3,7 +3,7 @@
 
     <!-- slider -->
     <?php include 'include/slider.php' ; ?><br><br>
-    
+    <?php while($row = $result->fetch_assoc()): ?>
         <div id="about">
             <div class="container">
                 <div class="row">
@@ -103,7 +103,7 @@
                                     <div class="service-media"> <img src="images/19.jpg" alt=" img"height="250px" width="350px"> </div>
                                         
                                </div>                         
-             </div>
+    </div>
           <br>
 
 
