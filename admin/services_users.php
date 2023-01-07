@@ -1,6 +1,6 @@
 <?php include 'include/header.php' ;
 include 'include/connection.php';  
-$sql = "SELECT * FROM homes";
+$sql = "SELECT * FROM srevices";
 $result = $db->query($sql);
 ?>
 
@@ -50,9 +50,9 @@ $result = $db->query($sql);
                             <td><?php echo $row['image'] ; ?></td>
                         
                         <td>
-                            <a href="edit_home.php?id=<?php echo $row['id']; ?>" class="btn btn-primary">Edit</a>
+                            <a href="edit_services.php?id=<?php echo $row['id']; ?>" class="btn btn-primary">Edit</a>
                        
-                            <a href="delete_home.php?id=<?php echo $row['id']; ?>" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this user?')">Delete</a>
+                            <a href="delete_services.php?id=<?php echo $row['id']; ?>" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this user?')">Delete</a>
                         </td>
                      </tr>
                         <?php endwhile; ?>

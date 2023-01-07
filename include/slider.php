@@ -8,7 +8,7 @@ $result = $db->query($sql);
             <div id="carouselExampleFade" class="carousel slide carousel-fade">
               <div class="carousel-inner">
                       <div class="carousel-item active">
-                      <img src="<?php echo "admin/images/" .$row['image'] ; ?>" height="450px" width="1500px"  alt="img">
+                      <img src="<?php echo "admin/images/" .$row['image'] ; ?>" height="450px" width="1600px"  alt="img">
                       </div>
               </div>   
                       

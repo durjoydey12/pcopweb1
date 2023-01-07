@@ -176,6 +176,24 @@
                                 <span class="hide-menu"><b>Home</b></span>
                             </a>
                         </li>
+
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="services.php"
+                                aria-expanded="false">
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                                <span class="hide-menu"><b>Services</b></span>
+                            </a>
+                        </li>
+
+                        
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="gallery.php"
+                                aria-expanded="false">
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                                <span class="hide-menu"><b> Our Gallery</b></span>
+                            </a>
+                        </li>
+                        
                         
                     </ul>
 

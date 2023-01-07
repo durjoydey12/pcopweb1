@@ -3,7 +3,8 @@
 
     <!-- slider -->
     <?php include 'include/slider.php' ; ?><br><br>
-    <?php while($row = $result->fetch_assoc()): ?>
+<!-- home -->
+
         <div id="about">
             <div class="container">
                 <div class="row">
