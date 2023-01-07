@@ -1,5 +1,6 @@
-<?php include 'include/header.php' ; ?>
-     
+<?php include 'include/header.php' ; 
+
+    ?>
      
      
      <!-- Page wrapper  -->
@@ -77,4 +78,3 @@
             <!-- ============================================================== -->
             <!-- ============================================================== -->
             <?php include 'include/footer.php' ; ?>
-            <?php

@@ -44,8 +44,10 @@
                                         
 
                                                 <li> 
-                                                    <a href="admin/registration.php" class="btn btn-danger"><i class="fa fa-globe"></i> <b>Admin page</b></a>  
+                                                    <a href="login.php" class="btn btn-danger"><i class="fa fa-globe"></i> <b>Admin page</b></a> 
+                                                     
                                                     
+                                                     
                                                 </li>
                                         
                                         </ul>
