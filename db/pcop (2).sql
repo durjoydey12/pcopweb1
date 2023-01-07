@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 01, 2023 at 09:27 AM
+-- Generation Time: Jan 07, 2023 at 05:02 AM
 -- Server version: 10.4.25-MariaDB
 -- PHP Version: 7.4.30
 
@@ -62,7 +62,29 @@ CREATE TABLE `footers` (
 --
 
 INSERT INTO `footers` (`id`, `logo`, `text`, `address`, `mobile_no`, `email`) VALUES
-(58, 'Pritilata Cultural Organization', 'Pritilata cultural center was built to save the memorial of revolutionary pritilata and his contribution to the freedom of Indian subcontinent from the British government in her village Dhalghat under patiya upazila. The cultural center located beside the east of Dhalghat Railway station. One of the founder of the pritilata cultural center Mr. Chakrobarti amiable person especially take care of this cultural center', 'Dhalghat,patiya,Chottogra', '0125874698', 'Pritilata@gmail.com');
+(69, 'Pritilata Cultural Organization', ' Pritilata cultural center was built to save the memorial of revolutionary pritilata and his contribution to the freedom of Indian subcontinent from the British government in her village Dhalghat under patiya upazila. The cultural center located beside the east of Dhalghat Railway station. One of the founder of the pritilata cultural center Mr. Chakrobarti amiable person especially take care of this cultural center.', 'Dhalghat,patiya,Chottogram,', '01826031884', 'Pritilata663@gmail.com');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `homes`
+--
+
+CREATE TABLE `homes` (
+  `id` int(20) NOT NULL,
+  `title` varchar(500) NOT NULL,
+  `text` varchar(500) NOT NULL,
+  `image` varchar(500) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `homes`
+--
+
+INSERT INTO `homes` (`id`, `title`, `text`, `image`) VALUES
+(1, ' Welcome to Pritilata Cultural Organization ', 'fsdfafgasfasgagagsdfgdfgdfgdfgdfg ', 'image69.jpg'),
+(4, 'Our Services ', 'dd ', '19.jpg'),
+(5, 'Our Services ', ' ', 'image.jpg');
 
 -- --------------------------------------------------------
 
@@ -102,7 +124,7 @@ CREATE TABLE `sliders` (
 --
 
 INSERT INTO `sliders` (`id`, `title`, `image`) VALUES
-(51, 'picture ', 'image3.jpeg');
+(64, 'billding ', 'image1.jpeg');
 
 -- --------------------------------------------------------
 
@@ -143,6 +165,12 @@ ALTER TABLE `footers`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `homes`
+--
+ALTER TABLE `homes`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `outsourcisngs`
 --
 ALTER TABLE `outsourcisngs`
@@ -168,13 +196,19 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `abouts`
 --
 ALTER TABLE `abouts`
-  MODIFY `id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
+  MODIFY `id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
 
 --
 -- AUTO_INCREMENT for table `footers`
 --
 ALTER TABLE `footers`
-  MODIFY `id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=69;
+  MODIFY `id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=70;
+
+--
+-- AUTO_INCREMENT for table `homes`
+--
+ALTER TABLE `homes`
+  MODIFY `id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `outsourcisngs`
@@ -186,7 +220,7 @@ ALTER TABLE `outsourcisngs`
 -- AUTO_INCREMENT for table `sliders`
 --
 ALTER TABLE `sliders`
-  MODIFY `id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=63;
+  MODIFY `id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=65;
 
 --
 -- AUTO_INCREMENT for table `users`
