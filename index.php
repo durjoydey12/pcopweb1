@@ -12,7 +12,7 @@
                                 <div class="about-text">
                                     <h2 class="text-info"> <span class="text-dark">Welcome to </span> Pritilata Cultural <br>Organization</h2>
                                     <hr>
-                                    <b>.To pursue higher education, Pritilata went to Calcutta (now Kolkata) and got admitted to
+                                    <b>.1To pursue higher education, Pritilata went to Calcutta (now Kolkata) and got admitted to
                                          the Bethune College. Two years later, she graduated in philosophy from the college with a distinction.[20] However, her degree was withheld by the Calcutta University administration.
                                          In 2012, she (and Bina Das) were conferred their certificates of merit posthumously.....</b>
                                 
