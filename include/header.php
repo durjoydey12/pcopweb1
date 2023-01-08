@@ -32,7 +32,8 @@
                                     <a href="institute.php" class="nav-item nav-link "><b>Institute</b></a>
                                     <a href="outsourcisng.php" class="nav-item nav-link"><b>Outsourcisng</b></a>                              
                                     <a href="registration.php" class="nav-item nav-link"><b>Registration</b></a>
-                                    
+                                    <a href="Contact.php" class="nav-item nav-link"><b>Contact</b></a>
+
                                 </div>
                              </div>
                                     
