@@ -66,7 +66,7 @@ $result = $db->query($sql);
                             <div class="service-media"> 
                                 <img src="images/image87.jpeg" alt="img" height="320px" width="300px"> 
                                 <div class="service-desc">
-                                            <h4>Durjoy Dey</h4>
+                                            <h4>Durjoy Dey  </h4>
                                             
                                     </div>
                             </div>
