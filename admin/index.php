@@ -1,4 +1,9 @@
-<?php include 'include/header.php' ; 
+<?php 
+// session_start();
+// if($_SESSION['id']):
+//     include "connection.php";
+include 'include/header.php' ; 
+
 
     ?>
      
@@ -78,3 +83,8 @@
             <!-- ============================================================== -->
             <!-- ============================================================== -->
             <?php include 'include/footer.php' ; ?>
+
+           
+            <!-- header("Location:login.php");
+              endif;
+               ?> -->

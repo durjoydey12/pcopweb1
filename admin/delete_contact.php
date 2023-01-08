@@ -3,10 +3,10 @@ include 'include/connection.php';
 
 $id = $_GET['id'] ;
 
-$sql = "DELETE FROM users WHERE id='$id'";
+$sql = "DELETE FROM contacts WHERE id='$id'";
 
 $result = $db->query($sql);
 
 if($result)
-    header('Location:registration_users.php');
+    header('Location:contact_users.php');
 

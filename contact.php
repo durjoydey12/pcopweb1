@@ -1,4 +1,7 @@
+<!-- header; -->
+<?php include 'include/header.php' ; 
 
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +11,8 @@
     <title>contact us</title>
     <link href="tooplate_style.css" rel="stylesheet" type="text/css" />
 </head>
-<body><center>
+<body>
+    <center>
 
 
 <!--header div-->
@@ -17,13 +21,7 @@
     <div id="tooplate_footer">
        <h1> <a href="#">Contact Information</a> </h1>
     </div>
-    </div>
-
-
-
-        
-
-                    
+    </div>              
            <br><br><br>
 
     <h3><p><em><i>[[Your Priority is our Responsivelity.]]</i></p></h3>
@@ -34,58 +32,47 @@
        	<div id="contact_form">
 		
         	<h4>Quick Contact Form</h4>
-			<form method="post" name="contact" action="#">
+			<form action="contact_insert.php" method="POST">
 	
-				<label for="author">Name:</label> <input type="text" id="author" name="author" class="required input_field" />
+				<label for="author"><b>Name:</b></label> <input type="text" id="author" name="name" class="required input_field" />
 				<div class="cleaner_h10"></div>
 							
-				<label for="email">Email:</label> <input type="text" class="validate-email required input_field" name="email" id="email" />
+				<label for="email"><b>Email:</b></label> <input type="text" class="validate-email required input_field" name="email" id="email" />
 				<div class="cleaner_h10"></div>
 							
-				<label for="subject">mobile_No:</label> <input type="number" class="validate-subject required input_field" name="subject" id="subject"/>				               
+				<label for="subject"><b>mobile_No:</b></label> <input type="number" class="validate-subject required input_field" name="mobile_no" id="subject"/>				               
 				<div class="cleaner_h10"></div>
 							
-				<label for="text">Message:</label> <textarea id="text" name="text" rows="0" cols="0" class="required"></textarea>
+				<label for="text"><b>Message:</b></label> <textarea id="text" name="text" rows="0" cols="0" class="required"></textarea>
 				<div class="cleaner_h10"></div>  
 							              
-				<input type="submit" value="Send" id="submit" name="submit" class="submit_btn float_l" />
-							
-				<input type="reset" value="Reset" id="reset" name="reset" class="submit_btn float_r" />
+                <button type="submit" class="btn btn-success">Submit</button>
+                <button type="reset" class="btn btn-danger">Reset</button>
 	
 			</form>
 
         </div>
    	</div>
-                
+             <center>
+                <br><br><br><br>
  	<div class="col_w460 last_col">
-	    <h4>Our Location</h4>
-        <h6>Pritilata Cultural Organization</h6>
+	    <h4><b>Our Location</b></h4>
+        <h6><b>Pritilata Cultural Organization</b></h6>
         <br>
-        156-145 Quisque odio quam, <br />
-        Pulvinar sit amet convallis eget, 10110<br />
-        Venenatis ut turpis<br /><br />
-        Tel: 01845-763272<br/> 
-		Fax: 0969-6891-086
+        <b>156-145 Quisque odio quam, </b><br />
+      <b>  Pulvinar sit amet convallis eget, 10110</b><br />
+       <b> Venenatis ut turpis</b><br /><br />
+        <b>Tel: 01845-763272</b><br/> 
+		<b>Fax: 0969-6891-086</b>
                     
         <div id="header_right">
             <br>
         
-        	<div id="social_box">
-                <br>
-                <h4>Online Veiw</h4>
-                <h6>Pritilata Cultural Organization</h6>
-                <ul>
-                    <li><a href="#"><img src="images/facebook.png" alt="Our Facebook Link" /></a></li> <br>
-                    <li><a href="#"><img src="images/massenger.png" alt="Our Massenger Link" /></a></li> <br>
-                    <li><a href="#"><img src="images/twitter.png" alt="Our Twitter Link" /></a></li> <br>
-                    <li><a href="#"><img src="images/instagram.png" alt="Our Instagram Link" /></a></li> <br>
-                    <li><a href="#"><img src="images/gmail.png" alt="Our Gmail Link" /></a></li>  <br>              
-                </ul>
-                <div class="cleaner"></div>
-			</div>  
+        	
 
                     
-    </div>                
+    </div>     
+    </center>              
 
     <div class="cleaner"></div>
 </div>
@@ -93,6 +80,7 @@
     <div class="cleaner"></div> 
 	
     <div class="cleaner"></div>
+    <br><br>
 
 
 
@@ -101,7 +89,7 @@
 
 <div id="tooplate_footer_wrapper">
 <div id="tooplate_footer">
-        Copyright © 2022 <a href="#">Pritilata Cultural Organization</a>
+       <b> Copyright © 2022 <a href="#">Pritilata Cultural Organization</a></b>
 </div>
 </div>
 
@@ -110,3 +98,6 @@
 </center> 
 </body>
 </html>
+
+<!-- footer -->
+<?php include 'include/footer.php' ; ?>

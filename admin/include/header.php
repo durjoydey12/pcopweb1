@@ -136,10 +136,10 @@
                         </li>
 
                         <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="profile.php"
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="contact_users.php"
                                 aria-expanded="false">
                                 <i class="fa fa-user" aria-hidden="true"></i>
-                                <span class="hide-menu"><b>Profile</b></span>
+                                <span class="hide-menu"><b>Contact</b></span>
                             </a>
                         </li>
 
@@ -157,6 +157,14 @@
                                 aria-expanded="false">
                                 <i class="fa fa-user" aria-hidden="true"></i>
                                 <span class="hide-menu"><b>About</b></span>
+                            </a>
+                        </li>
+
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="developer.php"
+                                aria-expanded="false">
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                                <span class="hide-menu"><b>Our Developer</b></span>
                             </a>
                         </li>
                         
@@ -201,7 +209,30 @@
                                 <span class="hide-menu"><b>Outsourcisng2</b></span>
                             </a>
                         </li>
+
                         
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="outsourcisng3.php"
+                                aria-expanded="false">
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                                <span class="hide-menu"><b>Outsourcisng3</b></span>
+                            </a>
+                        </li>
+
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="outsourcisng_image.php"
+                                aria-expanded="false">
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                                <span class="hide-menu"><b>Outsourcisng_image</b></span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="outsourcisng_enterprise.php"
+                                aria-expanded="false">
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                                <span class="hide-menu"><b>Outsourcisng_enterprise</b></span>
+                            </a>
+                        </li>
                         
                     </ul>
 
