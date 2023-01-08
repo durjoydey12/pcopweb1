@@ -34,8 +34,8 @@
 
                                     <a href="registration.php" class="nav-item nav-link"><b>Contect Us </b></a>
                     
-                                    <a href="registration.php" class="nav-item nav-link"><b>Registration</b></a>
-                                    <a href="Contact.php" class="nav-item nav-link"><b>Contact</b></a>
+                                    <!-- <a href="registration.php" class="nav-item nav-link"><b>Registration</b></a>
+                                    <a href="Contact.php" class="nav-item nav-link"><b>Contact</b></a> -->
 
 
                                 </div>
