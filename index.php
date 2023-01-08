@@ -81,7 +81,7 @@ $result = $db->query($sql);
                                 <div class="col-xs-10 col-md-6">
                                     <div class="service-media"> <img src="images/SME.jpg" alt=" img" height="300px" width="500px" > </div>
                                         <div class="service-desc">
-                                            <h3>institute</h3>
+                                            <h3>Institute</h3>
                                             <p><b>Educational institution is a place where people of different ages gain an education,
                                              including preschools, childcare, primary-elementary schools, secondary-high schools, and universities.
                                              They provide a large variety of learning environments and learning spaces.</b></p>
