@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 07, 2023 at 05:23 PM
+-- Generation Time: Jan 08, 2023 at 07:40 PM
 -- Server version: 10.4.25-MariaDB
 -- PHP Version: 7.4.30
 
@@ -45,6 +45,51 @@ INSERT INTO `abouts` (`id`, `title`, `history`, `image`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `contacts`
+--
+
+CREATE TABLE `contacts` (
+  `id` int(20) NOT NULL,
+  `name` varchar(500) NOT NULL,
+  `email` varchar(500) NOT NULL,
+  `mobile_no` varchar(500) NOT NULL,
+  `message` varchar(1000) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `contacts`
+--
+
+INSERT INTO `contacts` (`id`, `name`, `email`, `mobile_no`, `message`) VALUES
+(1, 'Joy Dey ', 'joydey55@gmail.com', '01826031884', 'I am a Student');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `developers`
+--
+
+CREATE TABLE `developers` (
+  `id` int(20) NOT NULL,
+  `title` varchar(500) NOT NULL,
+  `image` varchar(500) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `developers`
+--
+
+INSERT INTO `developers` (`id`, `title`, `image`) VALUES
+(1, 'Durjoy Dey ', 'image87.jpeg'),
+(2, 'Dabi Rani Dey ', 'image88.jpeg'),
+(3, 'Imran Hossan ', 'image89.jpeg'),
+(4, 'Mohin Saker ', 'image91.jpeg'),
+(5, 'Nishan Dey ', 'image92.jpeg'),
+(6, 'Sukanta Sharma ', 'image90.jpeg');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `footers`
 --
 
@@ -81,11 +126,10 @@ CREATE TABLE `gallerys` (
 --
 
 INSERT INTO `gallerys` (`id`, `title`, `image`) VALUES
-(2, 'Our Gallery ', ''),
 (7, ' ', 'image2.jpg'),
 (8, ' ', 'image56.jpg'),
 (9, ' ', 'image65.jpg'),
-(10, ' ', 'image70.jpg'),
+(10, ' ', 'image82.jpg'),
 (11, ' ', 'image80.jpg'),
 (12, ' ', 'image79.jpg'),
 (13, ' ', 'image 61.jpg'),
@@ -110,7 +154,7 @@ CREATE TABLE `homes` (
 --
 
 INSERT INTO `homes` (`id`, `title`, `text`, `image`) VALUES
-(8, ' Welcome to Pritilata Cultural Organization ', 'o pursue higher education, Pritilata went to Calcutta (now Kolkata) and got admitted to  the Bethune College. Two years later, she graduated in philosophy from the college with a distinction.[20] However, her degree was withheld by the Calcutta University administration.                                          In 2012, she (and Bina Das) were conferred their certificates of merit posthumously ', 'image69.jpg');
+(8, ' Welcome to Pritilata Cultural Organization ', 'o pursue higher education, Pritilata went to Calcutta (now Kolkata) and got admitted to  the Bethune College. Two years later, she graduated in philosophy from the college with a distinction.[20] However, her degree was withheld by the Calcutta University administration.                                          In 2012, she (and Bina Das) were conferred their certificates of merit posthumously ', 'download.jfif');
 
 -- --------------------------------------------------------
 
@@ -135,6 +179,56 @@ INSERT INTO `outsourcisng2` (`id`, `title`, `text`, `image`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `outsourcisng3`
+--
+
+CREATE TABLE `outsourcisng3` (
+  `id` int(20) NOT NULL,
+  `title` varchar(500) NOT NULL,
+  `image` varchar(500) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `outsourcisng3`
+--
+
+INSERT INTO `outsourcisng3` (`id`, `title`, `image`) VALUES
+(1, 'Housewife ', 'image33.png'),
+(2, 'Employment Expectant ', 'image31.png'),
+(3, 'Entrepreneur ', 'image35.png'),
+(4, 'Students ', 'image32.png'),
+(5, 'Expat ', 'image34.png'),
+(6, 'Freelances Eager ', 'image30.png');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `outsourcisng4`
+--
+
+CREATE TABLE `outsourcisng4` (
+  `id` int(20) NOT NULL,
+  `text` varchar(500) NOT NULL,
+  `title` varchar(500) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `outsourcisng4`
+--
+
+INSERT INTO `outsourcisng4` (`id`, `text`, `title`) VALUES
+(2, '2000+ ', 'Womens compleat free it scholarship training'),
+(3, '3000+ ', 'Students online internship facility get'),
+(4, '20000+ ', 'Physically autistic mens it training get it'),
+(5, '8000+ ', 'Outsourcisng deprived got id scholarship'),
+(6, '120+ ', 'Polytechnic industrial training in for joint has been'),
+(7, '100+ ', 'Aged citigen it schoolership got'),
+(8, '500+ ', 'Child students cretive it family joint has been'),
+(9, '50000+ ', 'Students carrer counseling work');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `outsourcisngs`
 --
 
@@ -152,6 +246,41 @@ CREATE TABLE `outsourcisngs` (
 INSERT INTO `outsourcisngs` (`id`, `text`, `title`, `image`) VALUES
 (5, 'According to the Outsourcing definition, it is a technique of appointing another firm or company for a specific task. To simplify, we can say that it is the business practice to set specific third-party to give services previously done by the company’s staff. The foremost cause of doing so is to cut down the costs and increase the company’s profitability. It also involves the distribution of labour so that the company outsourcing can focus on more important subjects. It is a matter of controvers', 'Outsourcisng ', 'image.87.webp'),
 (6, 'Freelance platforms are a marketplace for businesses and freelance workers from all over the world. They typically make money by taking a cut from both the employer and the freelancer. For the money they charge, these platforms provide a hassle-free and convenient business experience to both parties ', 'Outsourcisng marketplace .', 'image86.jpg');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `outsourcisng_images`
+--
+
+CREATE TABLE `outsourcisng_images` (
+  `id` int(20) NOT NULL,
+  `image` varchar(500) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `outsourcisng_images`
+--
+
+INSERT INTO `outsourcisng_images` (`id`, `image`) VALUES
+(7, 'image18.png'),
+(8, 'image19.png'),
+(9, 'image20.png'),
+(10, 'image21.png'),
+(11, 'image22.png'),
+(12, 'image23.png'),
+(13, 'image24.png'),
+(14, 'image25.png'),
+(15, 'image26.png'),
+(16, 'image36.png'),
+(17, 'image37.png'),
+(18, 'image38.png'),
+(19, 'image39.png'),
+(20, 'image40.png'),
+(21, 'image41.png'),
+(22, 'image42.png'),
+(23, 'image43.png'),
+(24, 'image44.png');
 
 -- --------------------------------------------------------
 
@@ -190,7 +319,6 @@ CREATE TABLE `srevices` (
 --
 
 INSERT INTO `srevices` (`id`, `title`, `text`, `image`) VALUES
-(6, 'Our Services ', 'A service is something that the public needs, such as transport, communications  facilities, hospitals, or energy supplies, which is provided in a planned and organized way by the government or an official body', ''),
 (7, 'Outsourcing ', 'Outsourcing has become a normal practice in business. Very often, we don’t even see it as a separate category. There are some criteria that help divide outsourcing companies into certain groups. The first one is the specifics of their activity, the next one is the number and specificity of the transferred functions, and the last criterion is geopolitical data, which is clearly visible in IT-outsourcing. Employees can work from different countries all over the world,creating a single product .', 'image.jpg'),
 (8, 'Institute ', 'Educational institution is a place where people of different ages gain an education, including preschools, childcare, primary-elementary schools, secondary-high schools, and universities. They provide a large variety of learning environments and learning spaces. ', '19.jpg');
 
@@ -227,6 +355,18 @@ ALTER TABLE `abouts`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `contacts`
+--
+ALTER TABLE `contacts`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `developers`
+--
+ALTER TABLE `developers`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `footers`
 --
 ALTER TABLE `footers`
@@ -251,9 +391,27 @@ ALTER TABLE `outsourcisng2`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `outsourcisng3`
+--
+ALTER TABLE `outsourcisng3`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `outsourcisng4`
+--
+ALTER TABLE `outsourcisng4`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `outsourcisngs`
 --
 ALTER TABLE `outsourcisngs`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `outsourcisng_images`
+--
+ALTER TABLE `outsourcisng_images`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -285,6 +443,18 @@ ALTER TABLE `abouts`
   MODIFY `id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
 
 --
+-- AUTO_INCREMENT for table `contacts`
+--
+ALTER TABLE `contacts`
+  MODIFY `id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
+--
+-- AUTO_INCREMENT for table `developers`
+--
+ALTER TABLE `developers`
+  MODIFY `id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+
+--
 -- AUTO_INCREMENT for table `footers`
 --
 ALTER TABLE `footers`
@@ -309,10 +479,28 @@ ALTER TABLE `outsourcisng2`
   MODIFY `id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
+-- AUTO_INCREMENT for table `outsourcisng3`
+--
+ALTER TABLE `outsourcisng3`
+  MODIFY `id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+
+--
+-- AUTO_INCREMENT for table `outsourcisng4`
+--
+ALTER TABLE `outsourcisng4`
+  MODIFY `id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+
+--
 -- AUTO_INCREMENT for table `outsourcisngs`
 --
 ALTER TABLE `outsourcisngs`
   MODIFY `id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
+
+--
+-- AUTO_INCREMENT for table `outsourcisng_images`
+--
+ALTER TABLE `outsourcisng_images`
+  MODIFY `id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
 
 --
 -- AUTO_INCREMENT for table `sliders`
@@ -330,7 +518,7 @@ ALTER TABLE `srevices`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
+  MODIFY `id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
