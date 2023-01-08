@@ -31,8 +31,7 @@ $result = $db->query($sql);
 
                             <div class="about-media"> <img src="<?php echo "admin/images/" .$row['image'] ; ?>" alt="img " height="350px" width="500px" > </div>
 
-                            <div class="about-media"> <img src="images/download.jfif" alt="img " height="350px" width="500px" > </div>
-
+                           
                             
                         </div>
                 </div>
