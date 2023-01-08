@@ -26,7 +26,7 @@ $result = $db->query($sql);
                         </div>
                             
                         <div class="col-xs-12 col-md-3">
-                            <div class="about-media"> <img src="images/image69.jpg" alt="img " height="350px" width="500px" > </div>
+                            <div class="about-media"> <img src="images/download.jfif" alt="img " height="350px" width="500px" > </div>
                             
                         </div>
                 </div>
@@ -66,7 +66,7 @@ $result = $db->query($sql);
             
 
                                 <div class="col-xs-10 col-md-6">
-                                    <div class="service-media"> <img src="images/19.jpg" alt=" img" height="300px" width="500px" > </div>
+                                    <div class="service-media"> <img src="images/SME.jpg" alt=" img" height="300px" width="500px" > </div>
                                         <div class="service-desc">
                                             <h3>Institute</h3>
                                             <p><b>Educational institution is a place where people of different ages gain an education,
@@ -92,20 +92,20 @@ $result = $db->query($sql);
     <div class="row">
                 <div class="col-xs-12 col-md-4">
                             <div class="service-media"> 
-                                <img src="images/image.jpg" alt="img" height="250px" width="350px"> 
+                                <img src="images/image86.jpg" alt="img" height="250px" width="350px"> 
                             </div>
                                     
                 </div>
             
 
                                 <div class="col-xs-12 col-md-4">
-                                    <div class="service-media"> <img src="images/19.jpg" alt=" img"height="250px" width="350px" > </div>
+                                    <div class="service-media"> <img src="images/source.jpeg" alt=" img"height="250px" width="350px" > </div>
                                         
                                </div>
 
                                
                                <div class="col-xs-12 col-md-4">
-                                    <div class="service-media"> <img src="images/19.jpg" alt=" img"height="250px" width="350px"> </div>
+                                    <div class="service-media"> <img src="images/out1.webp" alt=" img"height="250px" width="350px"> </div>
                                         
                                </div>                         
     </div>
@@ -115,14 +115,14 @@ $result = $db->query($sql);
              <div class="row">
                 <div class="col-xs-12 col-md-4">
                             <div class="service-media"> 
-                                <img src="images/image.jpg" alt="img" height="250px" width="350px"> 
+                                <img src="images/image82.jpg" alt="img" height="250px" width="350px"> 
                             </div>
                                     
                 </div>
             
 
                                 <div class="col-xs-12 col-md-4">
-                                    <div class="service-media"> <img src="images/19.jpg" alt=" img"height="250px" width="350px" > </div>
+                                    <div class="service-media"> <img src="images/image66.jpg" alt=" img"height="250px" width="350px" > </div>
                                         
                                </div>
 
@@ -139,14 +139,14 @@ $result = $db->query($sql);
                     <div class="row">
                     <div class="col-xs-12 col-md-4">
                                 <div class="service-media"> 
-                                    <img src="images/image.jpg" alt="img" height="250px" width="350px"> 
+                                    <img src="images/22.jpg" alt="img" height="250px" width="350px"> 
                                 </div>
                                         
                     </div>
 
 
                                     <div class="col-xs-12 col-md-4">
-                                        <div class="service-media"> <img src="images/19.jpg" alt=" img"height="250px" width="350px" > </div>
+                                        <div class="service-media"> <img src="images/image62.jpg" alt=" img"height="250px" width="350px" > </div>
                                             
                                     </div>
 
