@@ -54,6 +54,100 @@ $result = $db->query($sql);
 <?php endwhile; ?>
 
 
+<div id="portfolio">
+  <div class="container">
+    <div class="section-title text-center center">
+      <h2><b>Our Developer</b></h2>
+      <hr>
+      
+    </div><br><br>
+    <div class="row">
+                <div class="col-xs-12 col-md-4">
+                            <div class="service-media"> 
+                                <img src="images/image87.jpeg" alt="img" height="320px" width="300px"> 
+                                <div class="service-desc">
+                                            <h4>Durjoy Dey</h4>
+                                            
+                                    </div>
+                            </div>
+                                    
+                </div>
+            
+
+                                <div class="col-xs-12 col-md-4">
+                                    <div class="service-media"> <img src="images/image88.jpeg" alt=" img"height="320px" width="300px" > 
+                                    <div class="service-desc">
+                                            <h4>Dabi Rani Dey</h4>
+                                            
+                                    </div>
+                                </div>
+                                        
+                               </div>
+
+                               
+                               <div class="col-xs-12 col-md-4">
+                                    <div class="service-media"> <img src="images/image89.jpeg" alt=" img"height="320px" width="300px"> 
+                                    <div class="service-desc">
+                                            <h4>Imran Hossan</h4>
+                                            
+                                    </div>
+                                </div>
+                                        
+                               </div>                         
+    </div>
+          <br>
+
+
+             <div class="row">
+                <div class="col-xs-12 col-md-4">
+                            <div class="service-media"> 
+                                <img src="images/image91.jpeg" alt="img" height="320px" width="300px"> 
+                                <div class="service-desc">
+                                    <h4>Mohin Saker</h4>
+                                    
+                                            
+                                    </div>
+                            </div>
+                                    
+                </div>
+            
+
+                                <div class="col-xs-12 col-md-4">
+                                    <div class="service-media"> <img src="images/image90.jpeg" alt=" img"height="320px" width="300px" >
+                                    <div class="service-desc">
+                                    <h4>Sukanta Sharma</h4>
+                                    
+                                            
+                                    </div>
+                                 </div>
+                                        
+                               </div>
+
+                               
+                               <div class="col-xs-12 col-md-4">
+                                    <div class="service-media"> 
+                                        <img src="images/image92.jpeg" alt=" img"height="320px" width="300px"> 
+                                        <div class="service-desc">
+                                    <h4>Nishan Dey</h4>
+                                    
+                                            
+                                    </div>
+                                   </div>
+                                        
+                               </div>                         
+             </div>
+
+             <br>
+
+
+
+           
+
+    
+  </div>
+</div>
+
+
 
 <br><br>
 

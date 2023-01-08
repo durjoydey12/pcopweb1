@@ -13,7 +13,7 @@ $sql = "INSERT INTO users(name,email,password,mobile_no) VALUES ('$name','$email
 $result = $db->query($sql);
 
 if($result){
-    echo "Data insert successful!";
+    header('Location:registration_users.php');
 }
 else{
     echo "Data insert Fail!";

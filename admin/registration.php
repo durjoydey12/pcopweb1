@@ -1,68 +1,53 @@
-<?php include 'include/header.php' ;
-include 'include/connection.php';  
-$sql = "SELECT * FROM users";
-$result = $db->query($sql);
-  ?>
+<!-- header -->
+<?php include 'include/header.php' ; ?>
+<br><br>
 
-<!-- Page wrapper  -->
-<!-- ============================================================== -->
-<div class="page-wrapper">
-    <!-- ============================================================== -->
-    <!-- Bread crumb and right sidebar toggle -->
-    <!-- ============================================================== -->
-    <div class="page-breadcrumb bg-white">
-        <div class="row align-items-center">
-            <div class="col-md-12">
-                <h3 class="page-title">Registration page</h3>
-            </div>
-        </div>
-        <!-- /.col-lg-12 -->
-    </div><br><br>
-    <!-- ============================================================== -->
-    <!-- End Bread crumb and right sidebar toggle -->
-    <!-- ============================================================== -->
-    <!-- ============================================================== -->
-    <!-- Container fluid  -->
-    <!-- ============================================================== -->
-    <div class="container-fluid">
-        <!-- ============================================================== -->
-        <!-- Three charts -->
-        <!-- ============================================================== -->
-        <div class="row justify-content-center">
-            <div class="col-md-8">
-                <table class="table table-striped table-bordered table-hover">
-                    <thead>
-                        <th><b>ID</b></th>
-                        <th><b>Name</b></th>
-                        <th><b>Email </b></th>
-                        <th><b>Password</b></th>
-                        <th><b>Mobile No</b> </th>
-                        <th><b>Action</b> </th>
-                    </thead>
-                    <tbody>
-                    <?php while($row = $result->fetch_assoc()): ?>
-                      <tr>
-                       
-                            <td><?php echo $row['id'] ; ?></td>
-                            <td><?php echo $row['name'] ; ?></td>
-                            <td><?php echo $row['email'] ; ?></td>
-                            <td><?php echo $row['password'] ; ?></td>
-                            <td><?php echo $row['mobile_no'] ; ?></td>
-                        <td>
-                            <a href="edit.php?id=<?php echo $row['id']; ?>" class="btn btn-primary">Edit</a>
-                       
-                            <a href="delete.php?id=<?php echo $row['id']; ?>" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this user?')">Delete</a>
-                        </td>
-                     </tr>
-                        <?php endwhile; ?>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
 
+<div class="row justify-content-center">
+
+
+
+
+   
+<div class="col-md-8">
+                            <h1><b>Registration Page</b></h1><hr>
+                            <form action="registration_insert.php" method="POST">
+                                <p>Name : <input name="name" type="text" class="form-control" placeholder="Enter your name"></p>
+                                <p>Email : <input name="email" type="email" class="form-control" placeholder="Enter your email" required></p>
+                                <p>Password: <input name="password" type="password" class="form-control" placeholder="Enter the password" required></p>
+                                <p>Mobile No : <input name="mobile_no" type="number" placeholder="Enter your mobile no" class="form-control"></p>
+                                <!-- <p>Image : <input name="image" type="image" placeholder="Enter your mobile no" class="form-control"></p> -->
+                                <button type="submit" class="btn btn-success">Submit</button>
+                                <button type="reset" class="btn btn-danger">Reset</button>
+                            </form>
+                            </div>
     
+
+
+</div><br><br><br><br><br><br>
+
+
+
+
+
+
+
+<div class="row justify-content-center">
+        <div class="col-md-5">  
+                      <h5> <a class="btn btn-info" href="registration_users.php">  <b> Registration users page</b></a>  </h5>        
+        </div>
+    
+
+
 </div>
 
 
+
+    
+
+        <br>
+        <br>
+
+
+<!-- footer -->
 <?php include 'include/footer.php' ; ?>

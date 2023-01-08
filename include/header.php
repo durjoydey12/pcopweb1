@@ -31,27 +31,12 @@
                                     <a href="about.php" class="nav-item nav-link"><b>About</b></a>  
                                     <a href="institute.php" class="nav-item nav-link "><b>Institute</b></a>
                                     <a href="outsourcisng.php" class="nav-item nav-link"><b>Outsourcisng</b></a>                              
-                                    <a href="registration.php" class="nav-item nav-link"><b>Registration</b></a>
+                                    <a href="registration.php" class="nav-item nav-link"><b>Contect Us </b></a>
                                     
                                 </div>
                              </div>
                                     
 
-                                <div class="navbar-collapse collapse" id="navbarSupportedContent" data-navbarbg="skin5">
-                                
-                                
-                                        <ul class="navbar-nav ms-auto d-flex align-items-center">
-                                        
-
-                                                <li> 
-                                                    <a href="login.php" class="btn btn-danger"><i class="fa fa-globe"></i> <b>Admin page</b></a> 
-                                                     
-                                                    
-                                                     
-                                                </li>
-                                        
-                                        </ul>
-                                </div>
                     </nav>
          </div>
 </div>
