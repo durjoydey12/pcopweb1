@@ -47,7 +47,7 @@ $result = $db->query($sql);
                             <td><?php echo $row['title'] ; ?></td>
                             
                             
-                            <td><?php echo $row['image'] ; ?></td>
+                            <td><img src="<?php echo "images/".$row['image'] ; ?>"width="50" alt=""></td>
                         
                         <td>
                             <a href="edit_outsourcisng3.php?id=<?php echo $row['id']; ?>" class="btn btn-primary">Edit</a>
