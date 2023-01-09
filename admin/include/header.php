@@ -90,7 +90,7 @@
                         <!-- User profile and search -->
                         <!-- ============================================================== -->
                         <li>
-                            &nbsp;<a class="btn btn-success" href="login.php"> <i class="fa fa-power-off"></i> <b>Logout</b></a>
+                            &nbsp;<a class="btn btn-success" href="logout.php"> <i class="fa fa-power-off"></i> <b>Logout</b></a>
                         </li>
                         <!-- ============================================================== -->
                         <!-- User profile and search -->

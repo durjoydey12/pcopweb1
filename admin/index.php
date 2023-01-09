@@ -1,7 +1,7 @@
 <?php 
-// session_start();
-// if($_SESSION['id']):
-//     include "connection.php";
+session_start();
+if($_SESSION['id']):
+    include "include/connection.php";
 include 'include/header.php' ; 
 
 
@@ -82,9 +82,10 @@ include 'include/header.php' ;
             <!-- End Container fluid  -->
             <!-- ============================================================== -->
             <!-- ============================================================== -->
-            <?php include 'include/footer.php' ; ?>
+            <?php include 'include/footer.php' ; 
 
-           
-            <!-- header("Location:login.php");
+            
+            else:
+             header("Location:login.php");
               endif;
-               ?> -->
+        ?> 

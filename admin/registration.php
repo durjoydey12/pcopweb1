@@ -9,7 +9,7 @@
 
 
    
-<div class="col-md-8">
+                      <div class="col-md-8">
                             <h1><b>Registration Page</b></h1><hr>
                             <form action="registration_insert.php" method="POST">
                                 <p>Name : <input name="name" type="text" class="form-control" placeholder="Enter your name"></p>

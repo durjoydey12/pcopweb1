@@ -4,13 +4,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="admin/css/login_style.css" rel="stylesheet">
+  <link href="css/login.css" rel="stylesheet">
   <title>login page </title>
 </head>
 <body >
  <center>
-<div class="a"><br><br><br><br><br><br><br>
-    <main>
+<div class="a">
+  <br><br><br><br> <br><br><br><br> <br><br><br><br>
     <h1 class="m-0 text-primary" style="font-size:20px;"><b>pcop</b></h1>
 
       <div class="container">
@@ -28,7 +28,7 @@
                   class="form-control" name="password" aria-describedby="helpId" placeholder="Enter the password">
               </div>  <br>
               <div class="md-3">
-              <button type="submit" class="btn btn-primary">login</button>
+              <button type="submit" class="btn btn-info">Login</button>
               </div>
             
               </form>
