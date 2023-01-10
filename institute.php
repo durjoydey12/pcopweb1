@@ -184,7 +184,11 @@ href="https://gmhsctg.tsmts.com/" target="_blank">Govt. Muslim High School</a></
 <div class="topnav">
 <b> <a class="active" href="contact.php">Add</a></b>
 </div>
-
+<div id="tooplate_footer_wrapper">
+<div id="tooplate_footer">
+       <b> @pcopweb-2002 <a href="#">Pritilata Cultural Organization</a></b>
+</div>
+</div>
                   
   </center>
   <br><br><br>
