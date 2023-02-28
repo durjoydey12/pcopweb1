@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.3
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 09, 2023 at 08:54 AM
--- Server version: 10.4.24-MariaDB
--- PHP Version: 7.4.29
+-- Generation Time: Feb 28, 2023 at 02:14 PM
+-- Server version: 10.4.25-MariaDB
+-- PHP Version: 7.4.30
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -341,8 +341,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `mobile_no`) VALUES
-(1, 'Durjoy dey', 'durjoy@gmail.com', '1122', '0125874698'),
-(2, 'Dabi Rani Day', 'dabiday@gmail.comm', '2255', '01705698547');
+(1, 'Durjoy dey', 'durjoydey663@gmail.com', '590229', '01705686982'),
+(2, 'Dabi Rani Day', 'dabidey@gmail.com', '590227', '01705698547');
 
 --
 -- Indexes for dumped tables
