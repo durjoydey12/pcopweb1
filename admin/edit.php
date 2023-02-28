@@ -20,7 +20,7 @@
     <div class="page-breadcrumb bg-white">
         <div class="row align-items-center">
             <div class="col-md-12">
-                <h2 class="page-title">Edit page</h2>
+                <h2 class="page-title">Edit Page</h2>
             </div>
         </div>
         <!-- /.col-lg-12 -->
