@@ -31,13 +31,15 @@ https://templatemo.com/tm-577-liberty-market
 
   <body>
   <!-- ***** Preloader Start ***** -->
-  <!--
+<!--
   <div id="js-preloader" class="js-preloader">
     <div class="preloader-inner">
       <span class="dot"></span>
       <div class="dots">
         <span></span>
         <span></span>
+        <span></span>
+         <span></span>
         <span></span>
       </div>
     </div>
@@ -178,8 +180,17 @@ href="https://gmhsctg.tsmts.com/" target="_blank">Govt. Muslim High School</a></
       </div>
     </div>
   </div>
-
-
+<center>
+<div class="topnav">
+<b> <a class="active" href="contact.php">Add</a></b>
+</div>
+<div id="tooplate_footer_wrapper">
+<div id="tooplate_footer">
+       <b> @pcopweb-2002 <a href="#">Pritilata Cultural Organization</a></b>
+</div>
+</div>
+                  
+  </center>
   <br><br><br>
  </body>
 </html>

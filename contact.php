@@ -24,7 +24,7 @@
     </div>              
            <br><br><br>
 
-    <h3><p><em><i>[[Your Priority is our Responsivelity.]]</i></p></h3>
+    <h3><p><em>Your Priority is our Responsivelity</p></h3>
                 
    	<div class="cleaner_h40"></div>
                 
@@ -46,7 +46,7 @@
 				<label for="text"><b>Message:</b></label> <textarea id="text" name="text" rows="0" cols="0" class="required"></textarea>
 				<div class="cleaner_h10"></div>  
 							              
-                <button type="submit" class="btn btn-success">Submit</button>
+                <button type="reset" class="btn btn-success">Submit</button>
                 <button type="reset" class="btn btn-danger">Reset</button>
 	
 			</form>
@@ -60,8 +60,8 @@
         <h6><b>Pritilata Cultural Organization</b></h6>
         <br>
         <b>156-145 Quisque odio quam, </b><br />
-      <b>  Pulvinar sit amet convallis eget, 10110</b><br />
-       <b> Venenatis ut turpis</b><br /><br />
+      <b>  kulshi, Chittagong</b><br />
+       <b> Gmail: pcopweb1@gmail.com</b><br /><br />
         <b>Tel: 01845-763272</b><br/> 
 		<b>Fax: 0969-6891-086</b>
                     
@@ -89,7 +89,7 @@
 
 <div id="tooplate_footer_wrapper">
 <div id="tooplate_footer">
-       <b> Copyright © 2022 <a href="#">Pritilata Cultural Organization</a></b>
+       <b> @pcopweb-2002 <a href="#">Pritilata Cultural Organization</a></b>
 </div>
 </div>
 
