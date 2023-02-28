@@ -38,7 +38,7 @@
             <div class="row">
               <div class="col-md-6">
                
-                    <form action="update-registration.php" method="POST">
+                    <form action="registration_users.php" method="POST">
                             <input type="hidden" name="id" value="<?php echo $id; ?>">
                         <p>Name : <input name="name" type="text" value="<?php echo $data['name'] ; ?>" class="form-control" placeholder="Enter your name"></p>
                         <p>Email : <input name="email" type="email"  value="<?php echo $data['email'] ; ?>" class="form-control" placeholder="Enter your email" required></p>
