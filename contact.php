@@ -19,7 +19,7 @@
 
 <div id="tooplate_footer_wrapper">
     <div id="tooplate_footer">
-       <h1> <a href="#">Contact Information</a> </h1>
+       <h1> <a href="#">Contect Information</a> </h1>
     </div>
     </div>              
            <br><br><br>
@@ -31,7 +31,7 @@
     <div class="col_w460">
        	<div id="contact_form">
 		
-        	<h4>Quick Contact Form</h4>
+        	<h4>Quick Contect Form</h4>
 			<form action="contact_insert.php" method="POST">
 	
 				<label for="author"><b>Name:</b></label> <input type="text" id="author" name="name" class="required input_field" />
@@ -40,7 +40,7 @@
 				<label for="email"><b>Email:</b></label> <input type="text" class="validate-email required input_field" name="email" id="email" />
 				<div class="cleaner_h10"></div>
 							
-				<label for="subject"><b>mobile_No:</b></label> <input type="number" class="validate-subject required input_field" name="mobile_no" id="subject"/>				               
+				<label for="subject"><b>Mobile_No:</b></label> <input type="number" class="validate-subject required input_field" name="mobile_no" id="subject"/>				               
 				<div class="cleaner_h10"></div>
 							
 				<label for="text"><b>Message:</b></label> <textarea id="text" name="text" rows="0" cols="0" class="required"></textarea>

@@ -25,7 +25,7 @@ $result = $db->query($sql);
                                            
                                             
                                             
-                                            <a class="text-white-50" href="registration.php"><i class="fa fa-angle-right mr-2"></i>Registration</a>
+                                            <a class="text-white-50" href="registration.php"><i class="fa fa-angle-right mr-2"></i>contacts</a>
                                         </div>
                                     </center>
                             </div>

@@ -72,10 +72,13 @@ $result = $db->query($sql);
                 <div class="col-xs-12 col-md-4">
                             <div class="service-media"> 
                                 <img src="<?php echo"admin/images/" .$row['image'] ; ?>" alt="img" height="320px" width="300px"> 
+                                
                                 <div class="service-desc">
+                                <br>
                                             <h4><?php echo $row['title'] ; ?> </h4>
                                             
                                 </div>
+                                <br>
                             </div>
                                     
                 </div>

@@ -13,7 +13,7 @@ $result = $db->query($sql);
     <div class="page-breadcrumb bg-white">
         <div class="row align-items-center">
             <div class="col-md-12">
-                <h3 class="page-title">Contact users page</h3>
+                <h3 class="page-title">Contect users page</h3>
             </div>
         </div>
         <!-- /.col-lg-12 -->
@@ -36,7 +36,7 @@ $result = $db->query($sql);
                         <th><b>Name</b></th>
                         <th><b>Email </b></th>
                         <th><b>Mobile No</b></th>
-                        <th><b>Message</b> </th>
+                        <th><b>Mobile_No</b> </th>
                         <th><b>Action</b> </th>
                     </thead>
                     <tbody>
