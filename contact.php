@@ -19,7 +19,7 @@
 
 <div id="tooplate_footer_wrapper">
     <div id="tooplate_footer">
-       <h1> <a href="#">Contect information</a> </h1>
+       <h1> <a href="#">Contect Information</a> </h1>
     </div>
     </div>              
            <br><br><br>
