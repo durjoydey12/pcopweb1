@@ -46,8 +46,8 @@
 				<label for="text"><b>Message:</b></label> <textarea id="text" name="text" rows="0" cols="0" class="required"></textarea>
 				<div class="cleaner_h10"></div>  
 							              
-                <button type="reset" class="btn btn-success">Submit</button>
-                <button type="reset" class="btn btn-danger">Reset</button>
+                <button type="submit" class="btn btn-success">Submit</button>
+                        <button type="reset" class="btn btn-danger">Reset</button>
 	
 			</form>
 

@@ -19,13 +19,14 @@ $result = $db->query($sql);
                                     <center>
                                             <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Our Services</h5>
                                         <div class="d-flex flex-column justify-content-start">
+                                        <a class="text-white-50 mb-2" href="index.php"><i class="fa fa-angle-right mr-2"></i>Home</a>
                                             <a class="text-white-50 mb-2" href="about.php"><i class="fa fa-angle-right mr-2"></i>About</a>
                                             <a class="text-white-50 mb-2" href="institute.php"><i class="fa fa-angle-right mr-2"></i>Institute</a>
                                             <a class="text-white-50 mb-2" href="outsourcisng.php"><i class="fa fa-angle-right mr-2"></i>Outsourcisng</a>
                                            
                                             
                                             
-                                            <a class="text-white-50" href="registration.php"><i class="fa fa-angle-right mr-2"></i>contacts</a>
+                                            <a class="text-white-50" href="contact.php"><i class="fa fa-angle-right mr-2"></i>contacts</a>
                                         </div>
                                     </center>
                             </div>
