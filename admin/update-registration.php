@@ -14,5 +14,5 @@ $sql = "UPDATE users SET name='$name', email='$email', password='$password', mob
 $result = $db->query($sql);
 
 if($result){
-   header('Location:registration.php');
+   header('Location:registration_users.php');
 }

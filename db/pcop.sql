@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 04, 2023 at 03:31 PM
+-- Generation Time: Mar 05, 2023 at 04:11 PM
 -- Server version: 10.4.25-MariaDB
 -- PHP Version: 7.4.30
 
@@ -62,7 +62,10 @@ CREATE TABLE `contacts` (
 
 INSERT INTO `contacts` (`id`, `name`, `email`, `mobile_no`, `message`) VALUES
 (4, 'Joy Dey ', 'durjoy663@gmail.com', '018758989898', 'I am a Student .'),
-(5, 'Hridoy Dey ', 'hridoy11@gmail.com', '01875965587', 'I am a Software developer .');
+(5, 'Hridoy Dey ', 'hridoy11@gmail.com', '01875965587', 'I am a Software developer .'),
+(8, 'Bijoy Dey', 'bijoy11@gmail.com', '01879547895', ' Hi ! '),
+(9, 'Raj Dey', 'raj11@gmail.com', '017564587592', '  Pritilata Cultural Organization\r\n'),
+(10, 'Alamin ', 'alamin222gamil.com', '01825975448', 'I am Student .');
 
 -- --------------------------------------------------------
 
@@ -344,8 +347,10 @@ CREATE TABLE `users` (
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `mobile_no`) VALUES
 (1, 'Durjoy dey', 'durjoydey663@gmail.com', '590229', '01705686982'),
 (2, 'Dabi Rani Day', 'dabidey@gmail.com', '590227', '01705698547'),
-(28, 'Mohin sarker', 'Mohin58@gmail.com', '590240', '01759874589'),
-(29, 'Nishan Dey', 'nishan@gmail.com', '590215', '01785987445');
+(28, 'Mohin sarker', 'Mohin11@gmail.com', '590240', '01759874589'),
+(30, '  Imran Hossan', 'imran11@gmail.com', '590210', '01784698751'),
+(31, 'Nishan Dey', 'nishan11@gmail.com', '590215', '01578965488'),
+(32, 'Sukanta Sharma', 'sukanta11@gmail.com', '590235', '01456789955');
 
 --
 -- Indexes for dumped tables
@@ -449,7 +454,7 @@ ALTER TABLE `abouts`
 -- AUTO_INCREMENT for table `contacts`
 --
 ALTER TABLE `contacts`
-  MODIFY `id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT for table `developers`
@@ -509,7 +514,7 @@ ALTER TABLE `outsourcisng_images`
 -- AUTO_INCREMENT for table `sliders`
 --
 ALTER TABLE `sliders`
-  MODIFY `id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=65;
+  MODIFY `id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=66;
 
 --
 -- AUTO_INCREMENT for table `srevices`
@@ -521,7 +526,7 @@ ALTER TABLE `srevices`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
+  MODIFY `id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

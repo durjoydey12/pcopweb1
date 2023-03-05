@@ -127,21 +127,36 @@
                                 <span class="hide-menu"><b>Slider</b></span>
                             </a>
                         </li>
+
                         <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="registration.php"
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="home.php"
                                 aria-expanded="false">
                                 <i class="fa fa-user" aria-hidden="true"></i>
-                                <span class="hide-menu"><b>Registration</b></span>
+                                <span class="hide-menu"><b>Home</b></span>
                             </a>
                         </li>
 
+                        
                         <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="contact_users.php"
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="services.php"
                                 aria-expanded="false">
                                 <i class="fa fa-user" aria-hidden="true"></i>
-                                <span class="hide-menu"><b>Contact</b></span>
+                                <span class="hide-menu"><b>Services</b></span>
                             </a>
                         </li>
+
+                        
+
+                        
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="gallery.php"
+                                aria-expanded="false">
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                                <span class="hide-menu"><b> Our Gallery</b></span>
+                            </a>
+                        </li>
+
+                    
 
                         <li class="sidebar-item">
                             <a class="sidebar-link waves-effect waves-dark sidebar-link" href="footer.php"
@@ -150,6 +165,9 @@
                                 <span class="hide-menu"><b>Footer</b></span>
                             </a>
                         </li>
+
+                        
+
 
 
                         <li class="sidebar-item">
@@ -177,45 +195,21 @@
                             </a>
                         </li>
 
-                        <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="home.php"
-                                aria-expanded="false">
-                                <i class="fa fa-user" aria-hidden="true"></i>
-                                <span class="hide-menu"><b>Home</b></span>
-                            </a>
-                        </li>
-
-                        <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="services.php"
-                                aria-expanded="false">
-                                <i class="fa fa-user" aria-hidden="true"></i>
-                                <span class="hide-menu"><b>Services</b></span>
-                            </a>
-                        </li>
-
                         
-                        <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="gallery.php"
-                                aria-expanded="false">
-                                <i class="fa fa-user" aria-hidden="true"></i>
-                                <span class="hide-menu"><b> Our Gallery</b></span>
-                            </a>
-                        </li>
-
-                        <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="outsourcisng2.php"
-                                aria-expanded="false">
-                                <i class="fa fa-user" aria-hidden="true"></i>
-                                <span class="hide-menu"><b>Outsourcisng2</b></span>
-                            </a>
-                        </li>
-
                         
                         <li class="sidebar-item">
                             <a class="sidebar-link waves-effect waves-dark sidebar-link" href="outsourcisng3.php"
                                 aria-expanded="false">
                                 <i class="fa fa-user" aria-hidden="true"></i>
-                                <span class="hide-menu"><b>Outsourcisng3</b></span>
+                                <span class="hide-menu"><b>Outsourcisng For</b></span>
+                            </a>
+                        </li>
+
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="outsourcisng_enterprise.php"
+                                aria-expanded="false">
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                                <span class="hide-menu"><b>Outsourcisng_enterprise</b></span>
                             </a>
                         </li>
 
@@ -226,14 +220,35 @@
                                 <span class="hide-menu"><b>Outsourcisng_image</b></span>
                             </a>
                         </li>
+                       
+
+                        
                         <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="outsourcisng_enterprise.php"
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="outsourcisng2.php"
                                 aria-expanded="false">
                                 <i class="fa fa-user" aria-hidden="true"></i>
-                                <span class="hide-menu"><b>Outsourcisng_enterprise</b></span>
+                                <span class="hide-menu"><b>Outsourcisng Office</b></span>
                             </a>
                         </li>
                         
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="contact_users.php"
+                                aria-expanded="false">
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                                <span class="hide-menu"><b> Contect</b></span>
+                            </a>
+                        </li>
+                        
+
+
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="registration.php"
+                                aria-expanded="false">
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                                <span class="hide-menu"><b>Registration</b></span>
+                            </a>
+                        </li>
+
                     </ul>
 
                 </nav>

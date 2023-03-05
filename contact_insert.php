@@ -14,7 +14,8 @@ $sql = "INSERT INTO contacts(name,email,mobile_no,message) VALUES ('$name','$ema
 $result = $db->query($sql);
 
 if($result){
-    header('Location:admin/contact_users.php');
+     header('Location:contact.php');
+      // echo "Data insert successful!";
 }
 else{
     echo "Data insert Fail!";
