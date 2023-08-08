@@ -1,4 +1,8 @@
-<?php
+ <?php
+
+
+
+
 include 'include/connection.php';
 
 $email      = $_POST['email'];

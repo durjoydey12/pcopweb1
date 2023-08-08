@@ -119,6 +119,20 @@
                                 <span class="hide-menu"><b>Dashboard</b></span>
                             </a>
                         </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="registration.php"
+                                aria-expanded="false">
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                                <span class="hide-menu"><b>Registration</b></span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="contact_users.php"
+                                aria-expanded="false">
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                                <span class="hide-menu"><b> Contect</b></span>
+                            </a>
+                        </li>
 
                         <li class="sidebar-item">
                             <a class="sidebar-link waves-effect waves-dark sidebar-link" href="slider.php"
@@ -145,9 +159,7 @@
                             </a>
                         </li>
 
-                        
 
-                        
                         <li class="sidebar-item">
                             <a class="sidebar-link waves-effect waves-dark sidebar-link" href="gallery.php"
                                 aria-expanded="false">
@@ -167,7 +179,6 @@
                         </li>
 
                         
-
 
 
                         <li class="sidebar-item">
@@ -231,23 +242,11 @@
                             </a>
                         </li>
                         
-                        <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="contact_users.php"
-                                aria-expanded="false">
-                                <i class="fa fa-user" aria-hidden="true"></i>
-                                <span class="hide-menu"><b> Contect</b></span>
-                            </a>
-                        </li>
+
                         
 
 
-                        <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="registration.php"
-                                aria-expanded="false">
-                                <i class="fa fa-user" aria-hidden="true"></i>
-                                <span class="hide-menu"><b>Registration</b></span>
-                            </a>
-                        </li>
+
 
                     </ul>
 
